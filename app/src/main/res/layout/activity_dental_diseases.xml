@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ddd"
+    tools:context=".DentalDiseasesActivity">
+
+    <TextView
+        android:id="@+id/Diseases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="18dp"
+        android:text="Dental Diseases"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/List_Diseases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/List_Diseases"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        android:layout_marginBottom="23dp"
+        android:text="Tooth decay: Tooth decay, or dental caries, is the most prevalent dental disease. It occurs when bacteria in the mouth produce acids that erode the tooth enamel, leading to cavities. Factors such as poor oral hygiene, sugary diets, and lack of fluoride contribute to tooth decay.
+
+Gum disease: Gum disease, also known as periodontal disease, affects the gums and supporting structures of the teeth. It starts with gingivitis, causing red, swollen gums, and can progress to periodontitis, which leads to gum recession, bone loss, and tooth loss. Poor oral hygiene, tobacco use, genetic factors, and certain medical conditions increase the risk of gum disease.
+
+Oral cancer: Oral cancer refers to cancers that develop in the mouth, including the lips, tongue, cheeks, and throat. Risk factors include tobacco and alcohol use, human papillomavirus (HPV) infection, poor diet, and sun exposure. Early detection and treatment are crucial for improving outcomes.
+
+Tooth sensitivity: Tooth sensitivity occurs when the tooth's protective enamel wears down, exposing the underlying dentin. This can cause discomfort or pain when consuming hot, cold, sweet, or acidic foods and drinks. Brushing too hard, gum recession, tooth decay, and gum disease can contribute to tooth sensitivity."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Diseases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Diseases" />
+
+    <Button
+        android:id="@+id/btn_Diseases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="6dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List_Diseases" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

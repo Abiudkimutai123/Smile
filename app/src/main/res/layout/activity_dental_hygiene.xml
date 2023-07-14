@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".DentalHygieneActivity">
+
+    <TextView
+        android:id="@+id/Hygiene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="18dp"
+        android:text="Dental Hygiene"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/List_Hygiene"
+        app:layout_constraintStart_toStartOf="@+id/List_Hygiene"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/List_Hygiene"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        android:layout_marginBottom="23dp"
+        android:text="Oral hygiene: Proper oral hygiene practices, such as regular brushing and flossing, are crucial for maintaining dental health. Brush your teeth at least twice a day with fluoride toothpaste and clean between your teeth with floss or interdental cleaners.
+
+Dental check-ups: Regular visits to the dentist are important to detect and prevent dental problems. Dentists can identify early signs of tooth decay, gum disease, oral cancer, and other issues. Aim for a dental check-up every six months or as recommended by your dentist.
+
+Tooth decay: Tooth decay, also known as dental caries or cavities, is caused by bacteria that produce acids leading to enamel erosion. Avoid excessive consumption of sugary foods and drinks, maintain good oral hygiene, and consider dental sealants and fluoride treatments for added protection.
+
+Gum health: Gum disease, also called periodontal disease, affects the gums and supporting structures of the teeth. It starts with gingivitis, characterized by swollen, red gums, and can progress to periodontitis, causing tooth loss. Proper oral hygiene and regular dental cleanings are vital for gum health.
+
+Diet and dental health: A balanced diet plays a significant role in maintaining dental health. Limit sugary and acidic foods and drinks, as they can contribute to tooth decay. Instead, opt for a diet rich in fruits, vegetables, whole grains, and calcium-rich foods."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Hygiene"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hygiene" />
+
+    <Button
+        android:id="@+id/btn_Hygiene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="6dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List_Hygiene" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
